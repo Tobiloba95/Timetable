@@ -3,7 +3,7 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel = "icon" href = "pics.webp" type = "image/x-icon"> 
+        <link rel = "icon" href = "img/pics.webp" type = "image/x-icon"> 
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -11,10 +11,10 @@
         <title>timetable</title>
     </head>
     <body>
-        <div class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="navbar-header">
                 <a class="navbar-brand" href="#">
-                    <img src="pic.jpg" width="10%" height="10%" alt="" loading="lazy"> timetable
+                    <img src="img/pic.jpg" width="10%" height="10%" alt="" loading="lazy"> timetable
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -61,13 +61,13 @@
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="pic6.jpeg" class="d-block w-100" alt="...">
+                    <img src="img/pic6.jpeg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="pic9.jpg" width="100%" height="100%" class="d-block w-100" alt="...">
+                    <img src="img/pic9.jpg" width="100%" height="100%" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="pic7.jpg" width="100%" height="100%" class="d-block w-100" alt="...">
+                    <img src="img/pic7.jpg" width="100%" height="100%" class="d-block w-100" alt="...">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#" role="button" data-slide="prev">
@@ -82,37 +82,37 @@
 
        <div class="row">
             <div class="col-sm-6">
-                <div class="card" style="width:400px">
+                <div class="card">
                 <h4 class="card-title">Timetable</h4>
                     <div class="card-body">
-                        <img class="card-img" src="pic10.jpg" alt="Card image" style="width:100%">
+                        <img class="card-img" src="img/pic10.jpg" alt="Card image" style="width:100%">
                         <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-6">
-                <div class="card" style="width:400px">
+                <div class="card">
                     <h4 class="card-title">Daily Timetable</h4>
                         <div class="card-body">
-                            <img class="card-img" src="pic12.jpeg" alt="Card image" style="width:100%">
+                            <img class="card-img" src="img/pic12.jpeg" alt="Card image" style="width:100%">
                             <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
                         </div>
                 </div>
             </div>
             <div class="col-sm-6">
-                <div class="card" style="width:400px">
+                <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Weekly Timetable</h4>
-                        <img class="card-img" src="pic11.jpg" alt="Card image" style="width:100%">
+                        <img class="card-img" src="img/pic11.jpg" alt="Card image" style="width:100%">
                         <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-6">
-                <div class="card" style="width:400px">
+                <div class="card" >
                     <div class="card-body">
                         <h4 class="card-title">Yearly Timetable</h4>
-                        <img class="card-img" src="pics2.webp" alt="Card image" style="width:100%">
+                        <img class="card-img" src="img/pics2.webp" alt="Card image" style="width:100%">
                         <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
                     </div>
                 </div>
