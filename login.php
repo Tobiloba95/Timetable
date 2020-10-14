@@ -59,50 +59,60 @@
             </div>
         </div>
         
+       <div class="container" id="container"></div>
+            <div class="form-container sign-up-container">       
+                <!--Form-->
+                <form action="#">
+                    <h1>Creat Account</h1>
+                    <div class="social-container">
+                        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="social"><i class="fab fa-linked-in"></i></a>
+                    </div>
+                    <span>or use your email for registration</span>            
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">  
+                    <input type="password" placeholder="Password">
+                    <button type="submit" class="btn btn-default">Sign Up</button>
+                </form>
+            </div>
+            <div class="form-container sign-in-container">
+                <form action="" >
+                    <h1>Sign in</h1>
+                    <div class="social-container">
+                        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="social"><i class="fab fa-linked-in"></i></a>
+                    </div>
+                    <span>or use your account</span>
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="Password">
+                    <a href="#">Forgot your password?</a>
+                    <button type="submit" class="btn btn-default">Sign In</button>
+                </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <div class="overlay-panel overlay-left">
+                        <h1>Welcome Back!</h1>
+                        <p>To keep connected with us please login with your personal info</p>
+                        <button class="ghost" id="signIn">Sign In</button>
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                        <h1>Hello, Friend!</h1>
+                        <p>Enter your personal details and start the journey with us</p>
+                        <button class="ghost" id="signUp">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <script src="main.js"></script>
 
-       <div class="row">
-            <div class="col-sm-6">
-                <div class="card">
-                <h4 class="card-title">Timetable</h4>
-                    <div class="card-body">
-                        <img class="card-img" src="img/pic10.jpg" alt="Card image" style="width:100%">
-                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="card">
-                    <h4 class="card-title">Daily Timetable</h4>
-                        <div class="card-body">
-                            <img class="card-img" src="pic12.jpeg" alt="Card image" style="width:100%">
-                            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                        </div>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h4 class="card-title">Weekly Timetable</h4>
-                        <img class="card-img" src="pic11.jpg" alt="Card image" style="width:100%">
-                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="card" >
-                    <div class="card-body">
-                        <h4 class="card-title">Yearly Timetable</h4>
-                        <img class="card-img" src="pics2.webp" alt="Card image" style="width:100%">
-                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                    </div>
-                </div>
-            </div>
-       </div>
-
+        
         <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     </body>
 </html>
