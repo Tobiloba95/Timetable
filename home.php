@@ -3,6 +3,7 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel = "icon" href = "pics.webp" type = "image/x-icon"> 
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -78,6 +79,46 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+
+       <div class="row">
+            <div class="col-sm-6">
+                <div class="card" style="width:400px">
+                <h4 class="card-title">Timetable</h4>
+                    <div class="card-body">
+                        <img class="card-img" src="pic10.jpg" alt="Card image" style="width:100%">
+                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" style="width:400px">
+                    <h4 class="card-title">Daily Timetable</h4>
+                        <div class="card-body">
+                            <img class="card-img" src="pic12.jpeg" alt="Card image" style="width:100%">
+                            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                        </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" style="width:400px">
+                    <div class="card-body">
+                        <h4 class="card-title">Weekly Timetable</h4>
+                        <img class="card-img" src="pic11.jpg" alt="Card image" style="width:100%">
+                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card" style="width:400px">
+                    <div class="card-body">
+                        <h4 class="card-title">Yearly Timetable</h4>
+                        <img class="card-img" src="pics2.webp" alt="Card image" style="width:100%">
+                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                    </div>
+                </div>
+            </div>
+       </div>
+
         <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
