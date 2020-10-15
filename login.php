@@ -13,8 +13,8 @@
     <body>
         <div class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">
-                    <img src="pic.jpg" width="10%" height="10%" alt="" loading="lazy"> timetable
+                <a class="navbar-brand" href="login.php">
+                    <img src="img/pic.jpg" width="10%" height="10%" alt="" loading="lazy"> timetable
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -106,7 +106,7 @@
                 </div>
             </div>
         </div> 
-        <script src="main.js"></script>
+        <script src="js/main.js"></script>
 
         
         <!-- Optional JavaScript -->
