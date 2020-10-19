@@ -7,8 +7,14 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style.css">
+        
+        <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css" >
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="fontawesome/css/brands.css" >
+        <link rel="stylesheet" href="fontawesome/css/solid.css" >
+        <link rel="stylesheet" href="style.css">
         <title>timetable</title>
+        
     </head>
     <body>
         <div class="navbar navbar-expand-lg navbar-light bg-light">
@@ -59,35 +65,33 @@
             </div>
         </div>
         
-       <div class="container" id="container"></div>
+       <div class="container" id="container">
             <div class="form-container sign-up-container">       
-                <!--Form-->
-                <form action="#">
+                <form action="post">
                     <h1>Create Account</h1>
                     <div class="social-container">
-                        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-                        <a href="#" class="social"><i class="fab fa-linked-in"></i></a>
+                        <a href="login.php" class="social"><i class="fab fa-facebook-f"></i></a>
+                        <a href="login.php" class="social"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="login.php" class="social"><i class="fab fa-linkedin-in"></i></a>
                     </div>
-                    <span>or use your email for registration</span>            
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email">  
-                    <input type="password" placeholder="Password">
+                    <span>or use your email for registration</span>
+                    <input type="text" placeholder="Name" name="full_name">
+                    <input type="email" placeholder="Email" name="email">
+                    <input type="password" placeholder="Password" name="password">
                     <button type="submit" class="btn btn-default">Sign Up</button>
                 </form>
             </div>
-            <div class="form-container sign-in-container">
-                <form action="" >
+            <div class="form-container sign-in-container">       
+                <form action="post">
                     <h1>Sign in</h1>
                     <div class="social-container">
-                        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-                        <a href="#" class="social"><i class="fab fa-linked-in"></i></a>
+                        <a href="login.php" class="social"><i class="fab fa-facebook-f"></i></a>
+                        <a href="login.php" class="social"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="login.php" class="social"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                     <span>or use your account</span>
-                    <input type="email" placeholder="Email">
-                    <input type="password" placeholder="Password">
-                    <a href="#">Forgot your password?</a>
+                    <input type="email" placeholder="Email" name="email">
+                    <input type="password" placeholder="Password" name="password">
                     <button type="submit" class="btn btn-default">Sign In</button>
                 </form>
             </div>
@@ -111,8 +115,8 @@
         
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="js/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="js/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     </body>
 </html>
