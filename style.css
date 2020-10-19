@@ -157,3 +157,8 @@ button.ghost{
 .overlay-left{
     transform: translateX(-20%); 
 }
+/*Move signin yo the right*/
+.container.right-panel-active .sign-in-container{
+    transform: translateX(100%);
+
+}
