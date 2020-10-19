@@ -154,4 +154,6 @@ button.ghost{
     right: 0;
     transform: translateX(0);
 }
-
+.overlay-left{
+    transform: translateX(-20%); 
+}
