@@ -14,6 +14,8 @@
         <link rel="stylesheet" href="fontawesome/css/solid.css" >
         <link rel="stylesheet" href="style.css">
         <title>timetable</title>
+
+        <script src="main.js"></script>
         
     </head>
     <body>
@@ -67,7 +69,7 @@
         
        <div class="container" id="container">
             <div class="form-container sign-up-container">       
-                <form action="post">
+                <form action="#">
                     <h1>Create Account</h1>
                     <div class="social-container">
                         <a href="login.php" class="social"><i class="fab fa-facebook-f"></i></a>
@@ -110,7 +112,8 @@
                 </div>
             </div>
         </div> 
-        <script src="main.js"></script>
+
+        
 
         
         <!-- Optional JavaScript -->

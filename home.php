@@ -11,7 +11,7 @@
         <title>timetable</title>
     </head>
     <body>
-    <div class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="navbar-header">
                 <a class="navbar-brand" href="#">
                     <img src="img/pic.jpg" width="10%" height="10%" alt="" loading="lazy"> timetable
